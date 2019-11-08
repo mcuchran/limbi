@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/5c06479616.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Kontakt | Limbi</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="img/logo2.png" alt="My Portfolio" id="logo" />
+          <ul>
+            <li><a href="index.html">Domov</a></li>
+            <li><a href="about.html">O mne</a></li>
+            <li><a href="work.html">Moja praca</a></li>
+            <li><a href="contact.html" class="current">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Section A: Contact form -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Kontaktujte ma</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Prosiim vyplnte nizsie uvedeny list:</p>
+        <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
+          <div class="text-fields">
+            <input type="text" class="text-input name-input" placeholder="Meno" name="name" />
+            <input type="text" class="text-input subject-input" placeholder="Predmet" name="name" />
+            <input type="email" class="text-input email-input" placeholder="Emailova adresa" name="email" />
+            <input type="text" class="text-input phone-input" placeholder="Telefonne cislo" name="phone" />
+            <textarea class="text-input message-input" placeholder="Tu mi napiste spravu"></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button type="submit" class="btn-dark">Odoslat</button>
+        </form>
+      </div>
+    </section>
+    <!-- Section B: Contact info -->
+    <section id="contact-b" class="py-3 bg-dark">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>limbi@gmail.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Telefon</h3>
+            <p>0905 555 999</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>Adresa</h3>
+            <p>Krmanova 7/A</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section C Tag line -->
+    <section id="contact-c" class="bg-main py-4 text-center">
+      <div class="container">
+        <h1>Nacase zacat vlastnu premenu !</h1>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2019. All Rights Reserved</p>
+        <div class="social">
+          <a href="http://facebook.com"><i class="fab fa-facebook"></i></a>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

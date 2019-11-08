@@ -1,0 +1,18 @@
+// Variables
+
+$website-width: 1280px;
+$main-color: #0070ff;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #333;
+$azure-color: #318aff;
+$bg-image: url(../img/limbi.jpeg);
+
+// Set text color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
