@@ -1,7 +1,6 @@
 {
   "name": "my_website",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
@@ -10,5 +9,16 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.13.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcuchran/limbi.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/mcuchran/limbi/issues"
+  },
+  "homepage": "https://github.com/mcuchran/limbi#readme",
+  "description": ""
 }
