@@ -312,7 +312,8 @@ img {
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #0070ff;
-  padding: 0.8rem; }
+  padding: 0.8rem;
+  text-align: left; }
   #about-a .bio a {
     color: #0070ff; }
 
